@@ -1,0 +1,551 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 1700px) and (max-width: 2000px) {
+    /* .hero-area {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+        height: 558px;
+        padding: 43px 0 1245px 0;
+      } */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        width: 160px;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar-inner {
+        display: flex;
+        gap: 10px;
+    }
+    .menu-item {
+        display: none !important;
+    }
+    .mobile-icon-ss {
+        margin-top: -5px;
+        margin-right: 1px !important;
+        display: block !important;
+        margin-left: 0px;
+    }
+    .s-icon {
+        display: none;
+    }
+    .mobile-icon-ss ul {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .mobile-icon-ss ul li img {
+        width: 40px;
+    }
+    .menu-bar-wraper {
+        display: flex;
+        align-items: center;
+    }
+    header {
+        padding: 20px 0px;
+        position: fixed;
+        margin: auto;
+        width: 100%;
+        top: 0px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .menu-icon {
+        margin-right: 30px;
+    }
+    .menu-icon img {
+        width: 38px;
+    }
+    .hero-area {
+        padding: 43px 0 7px 0;
+    }
+    .hero-title h2 {
+        font-size: 56px;
+        line-height: 70px;
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    .hero-title p br {
+        display: none;
+    }
+    .hero-title h3 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .hero-title ul li a {
+        margin-bottom: 24px;
+    }
+    .hero-left {
+        padding: 22px;
+        margin-top: 140px;
+    }
+    .hero-right {
+        margin-top: 50px;
+        text-align: center;
+        position: relative;
+    }
+    .hero-right img {
+        max-width: 100%;
+    }
+    /* =========== */
+    .hero-title ul {
+        flex-wrap: nowrap;
+    }
+    .hero-title ul li {
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .hero-title ul li a {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 13px 0px;
+        transition: .3s;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 100%;
+        display: block;
+    }
+    .about-area {
+        padding: 43px 0;
+    }
+    .about-left img {
+        max-width: 100%;
+    }
+    .about-left img {
+        margin-top: 9px;
+        margin-left: 40px;
+    }
+    .about-left {
+        position: inherit;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-right {
+        margin-top: 0px;
+        text-align: center;
+        margin: 20px;
+        padding-right: 0px;
+    }
+    .about-right h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .about-right p {
+        margin-bottom: 0px;
+    }
+    .partners-area {
+        padding: 35px 0px;
+        text-align: center;
+    }
+    .pretners-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 45px;
+        text-align: center;
+    }
+    .our-roadmap-area {
+        padding: 100px 0 71px;
+    }
+    .tokenomics-area {
+        padding: 50px 0 26px;
+    }
+    .tokenomic-title h2 {
+        font-size: 40px;
+    }
+    .token-left-item {
+        padding: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        min-height: inherit;
+    }
+    .token-left-item p {
+        font-size: 12px;
+    }
+    .token-right-item {
+        padding: 0px;
+        border: none;
+    }
+    .token-right-content {
+        display: block;
+    }
+    .about-btn- h3 {
+        font-size: 20px;
+    }
+    .token-left {
+        margin-bottom: 40px;
+    }
+    .partners-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .token-right {
+        padding: 35px 10px;
+        display: block;
+    }
+    .token-right-ll {
+        text-align: center;
+    }
+    .token-right-rr {
+        margin-left: 0px;
+    }
+    .token-right h2 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .timeline {
+        position: relative;
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 15px 0;
+        display: none;
+    }
+    .rd-mobile {
+        display: block;
+    }
+    .roadmap-item {
+        padding: 30px;
+        min-height: inherit;
+    }
+    .roadmap-title h2 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .roadmap-title p {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .roadmap-item {
+        margin-bottom: 30px;
+    }
+    footer {
+        padding: 120px 0 0px;
+    }
+    .footer-content {
+        display: block;
+    }
+    .footer-left ul {
+        margin-bottom: 30px;
+    }
+    .footer-right ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    .footer-left-inner ul img {
+        width: 40px;
+    }
+    .footer-left-inner h3 {
+        font-size: 50px;
+    }
+    .footer-left-inner h2 {
+        color: #FFF;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin: 14px 0 12px 0;
+        text-align: center;
+    }
+    .footer-left-inner {
+        margin-bottom: 40px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+    .logo img {
+        width: 160px;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar-inner {
+        display: flex;
+        gap: 10px;
+    }
+    .menu-item {
+        display: none !important;
+    }
+    .mobile-icon-ss {
+        margin-top: -5px;
+        margin-right: 1px !important;
+        display: block !important;
+        margin-left: 0px;
+    }
+    .s-icon {
+        display: none;
+    }
+    .mobile-icon-ss ul {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .mobile-icon-ss ul li img {
+        width: 40px;
+    }
+    .menu-bar-wraper {
+        display: flex;
+        align-items: center;
+    }
+    header {
+        padding: 20px 0px;
+        position: fixed;
+        margin: auto;
+        width: 100%;
+        top: 0px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .menu-icon {
+        margin-right: 30px;
+    }
+    .menu-icon img {
+        width: 38px;
+    }
+    .hero-area {
+        padding: 43px 0 7px 0;
+    }
+    .hero-title h2 {
+        font-size: 56px;
+        line-height: 70px;
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    .hero-title p br {
+        display: none;
+    }
+    .hero-title h3 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .hero-title ul li a {
+        margin-bottom: 24px;
+    }
+    .hero-left {
+        padding: 22px;
+        margin-top: 140px;
+    }
+    .hero-right {
+        margin-top: 50px;
+        text-align: center;
+        position: relative;
+    }
+    .hero-right img {
+        max-width: 100%;
+    }
+    /* =========== */
+    .hero-title ul {
+        flex-wrap: nowrap;
+    }
+    .hero-title ul li {
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .hero-title ul li a {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 13px 0px;
+        transition: .3s;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 100%;
+        display: block;
+    }
+    .about-area {
+        padding: 43px 0;
+    }
+    .about-left img {
+        max-width: 100%;
+    }
+    .about-left img {
+        margin-top: 9px;
+        margin-left: 40px;
+    }
+    .about-left {
+        position: inherit;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-right {
+        margin-top: 0px;
+        text-align: center;
+        margin: 20px;
+        padding-right: 0px;
+    }
+    .about-right h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .about-right p {
+        margin-bottom: 0px;
+    }
+    .partners-area {
+        padding: 35px 0px;
+        text-align: center;
+    }
+    .pretners-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 45px;
+        text-align: center;
+    }
+    .our-roadmap-area {
+        padding: 100px 0 71px;
+    }
+    .tokenomics-area {
+        padding: 50px 0 26px;
+    }
+    .tokenomic-title h2 {
+        font-size: 40px;
+    }
+    .token-left-item {
+        padding: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        min-height: inherit;
+    }
+    .token-left-item p {
+        font-size: 12px;
+    }
+    .token-right-item {
+        padding: 0px;
+        border: none;
+    }
+    .token-right-content {
+        display: block;
+    }
+    .about-btn- h3 {
+        font-size: 20px;
+    }
+    .token-left {
+        margin-bottom: 40px;
+    }
+    .partners-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .token-right {
+        padding: 35px 10px;
+        display: block;
+    }
+    .token-right-ll {
+        text-align: center;
+    }
+    .token-right-rr {
+        margin-left: 0px;
+    }
+    .token-right h2 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .timeline {
+        position: relative;
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 15px 0;
+        display: none;
+    }
+    .rd-mobile {
+        display: block;
+    }
+    .roadmap-item {
+        padding: 30px;
+        min-height: inherit;
+    }
+    .roadmap-title h2 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .roadmap-title p {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .roadmap-item {
+        margin-bottom: 30px;
+    }
+    footer {
+        padding: 120px 0 0px;
+    }
+    .footer-content {
+        display: block;
+    }
+    .footer-left ul {
+        margin-bottom: 30px;
+    }
+    .footer-right ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    .footer-left-inner ul img {
+        width: 40px;
+    }
+    .footer-left-inner h3 {
+        font-size: 50px;
+    }
+    .footer-left-inner h2 {
+        color: #FFF;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin: 14px 0 12px 0;
+        text-align: center;
+    }
+    .footer-left-inner {
+        margin-bottom: 40px;
+    }
+
+    .hero-title ul li:last-of-type a {
+        border-radius: 5px;
+        padding: 11px;
+    }
+}
